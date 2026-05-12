@@ -43,6 +43,3 @@ const IntroPage = async () => {
 }
 
 export default IntroPage
-}
-
-export default IntroPage
