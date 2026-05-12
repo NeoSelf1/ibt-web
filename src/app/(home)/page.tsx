@@ -6,6 +6,8 @@ import ContentBlocks from '@/components/intro/IntroContentBlock.client'
 import IntroComponent4 from '@/components/intro/IntroComponent4'
 
 const IntroPage = async () => {
+  
+  /*
   const res = await fetchPostData(0) //데이터 불러오는 딜레이가 아님
 
   return (
@@ -26,6 +28,21 @@ const IntroPage = async () => {
       <IntroComponent7 data={res.data} />
     </div>
   )
+  */
+      // public/index.html 연결
+  return (
+    <iframe
+      src="/index.html"
+      style={{
+        width: '100%',
+        height: '100vh',
+        border: 'none',
+      }}
+    />
+  )
+}
+
+export default IntroPage
 }
 
 export default IntroPage
